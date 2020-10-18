@@ -3,7 +3,7 @@
 В данной БД осуществляется ведение и учёт сотрудников, разграничение прав доступа на основе ролей пользователей,
 учёт товара на точках продаж. Продажа товара осуществляется по средством хранимой процедуры.
 
-![ERDiagram](db_schema.png)
+![ERDiagram](statics/db_schema.png)
 
-|![main_menu](main_menu.png)|![main_menu](qr_key.png)|
+|![main_menu](statics/main_menu.png)|![main_menu](statics/qr_key.png)|
  
