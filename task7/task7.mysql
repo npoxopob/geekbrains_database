@@ -1,0 +1,5 @@
+USE task7;
+-- Составьте список пользователей users, которые осуществили хотя бы один заказ orders в интернет магазине.
+SELECT * FROM users WHERE id  in (SELECT user_id FROM orders o2);
+-- Выведите список товаров products и разделов catalogs, который соответствует товару.
+SELECT p.id, p.name, p.price ,c.name FROM products p JOIN catalogs c ON c.id = p.id;
